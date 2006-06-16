@@ -1,0 +1,118 @@
+gnochm
+-------------------------------------------
+Gnochm is a CHM file viewer for Gnome systems. Features are:
+* Support for external ms-its links
+* Full text search support
+* Bookmarks
+* Configurable support for HTTP links
+* Integrated with Gnome2:
+  - Registers itself to open CHM files (freedesktop and older scheme).
+  - Accepts Drag-n-Drop from Nautilus.
+  - Uses Gnome help system.
+  - Preferences stored in GConf.
+* Support for multiple languages (pt_BR, it, de, ru, tr, zh_CN)
+* Support to open multiple files at once
+* Displays HTML page source
+
+Runtime requirements:
+  pychm-0.8.3-1
+  pygconf2-2.12.2-1
+  pygnome2-2.12.2-1
+  pygobject2-2.10.1-1
+  pygtk2-2.8.6-1
+  pygtkhtml2-2.14.0-1
+  python-2.4.3-1
+
+Build requirements:
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
+  cygport-0.1.93-1
+  gawk-3.1.5-2
+  gettext-devel-0.14.5-1
+  intltool-0.35.0-1
+  make-3.80-1
+  scrollkeeper-0.3.14-2
+  sed-4.1.4-1
+
+Canonical homepage:
+  http://gnochm.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/gnochm/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnochm-0.9.8-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnochm-0.9.8-1.cygport all
+
+This will create:
+  /usr/src/gnochm-0.9.8-1-src.tar.bz2
+  /usr/src/gnochm-0.9.8-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/gnochm.schemas
+  /etc/postinstall/gnochm.sh
+  /etc/preremove/gnochm.sh
+  /usr/bin/gnochm
+  /usr/share/application-registry/gnochm.applications
+  /usr/share/applications/gnochm.desktop
+  /usr/share/doc/Cygwin/gnochm-0.9.8.README
+  /usr/share/doc/gnochm-0.9.8/ABOUT-NLS
+  /usr/share/doc/gnochm-0.9.8/AUTHORS
+  /usr/share/doc/gnochm-0.9.8/COPYING
+  /usr/share/doc/gnochm-0.9.8/ChangeLog
+  /usr/share/doc/gnochm-0.9.8/INSTALL
+  /usr/share/doc/gnochm-0.9.8/NEWS
+  /usr/share/doc/gnochm-0.9.8/README
+  /usr/share/gnochm/glade/gnochm.glade
+  /usr/share/gnochm/glade/prefdialog.glade
+  /usr/share/gnome/help/gnochm/C/gnochm.xml
+  /usr/share/gnome/help/gnochm/C/legal.xml
+  /usr/share/locale/cs/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/de/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/es/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/it/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/ja/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/pl/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/ru/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/tr/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/gnochm.mo
+  /usr/share/man/it/man1/gnochm.1.gz
+  /usr/share/man/man1/gnochm.1.gz
+  /usr/share/mime-info/gnochm.keys
+  /usr/share/mime-info/gnochm.mime
+  /usr/share/mime/packages/gnochm.xml
+  /usr/share/omf/gnochm/gnochm-C.omf
+  /usr/share/pixmaps/chmfile.png
+  /usr/share/pixmaps/gnochm.png
+  /usr/share/pixmaps/gnochm_logo.png
+
+------------------
+
+Port Notes:
+
+----- version 0.9.8-1 -----
+Version bump.
+
+----- version 0.9.7-1 -----
+Version bump.
+
+----- version 0.9.6-1 -----
+Version bump.
+
+----- version 0.9.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,16 @@
+category: Gnome Text
+requires: pychm pygconf2 pygnome2 pygobject2 pygtk2 pygtkhtml2 python
+sdesc: "CHM file viewer for the GNOME desktop"
+ldesc: "Gnochm is a CHM file viewer for Gnome systems. Features are:
+* Support for external ms-its links
+* Full text search support
+* Bookmarks
+* Configurable support for HTTP links
+* Integrated with Gnome2:
+  - Registers itself to open CHM files (freedesktop and older scheme).
+  - Accepts Drag-n-Drop from Nautilus.
+  - Uses Gnome help system.
+  - Preferences stored in GConf.
+* Support for multiple languages (pt_BR, it, de, ru, tr, zh_CN)
+* Support to open multiple files at once
+* Displays HTML page source"
