@@ -15,26 +15,27 @@ Gnochm is a CHM file viewer for Gnome systems. Features are:
 * Displays HTML page source
 
 Runtime requirements:
-  pychm-0.8.4-1
-  pygconf2-2.12.2-1
-  pygnome2-2.12.2-1
-  pygobject2-2.12.2-1
-  pygtk2-2.8.6-1
-  pygtkhtml2-2.14.0-1
-  python-2.4.3-1
+  python-2.5.1-1
+  python-chm-0.8.4-2
+  python-gconf2-2.18.2-1
+  python-gnome2-2.18.2-1
+  python-gobject2-2.12.3-2
+  python-gtk2-2.10.4-2
+  python-gtkhtml2-2.14.3-1
 
 Build requirements:
-  cygwin-1.5.21-2
-  autoconf2.5-2.60-1
-  automake1.9-1.9.6-1
-  cygport-0.2.6-1
-  gawk-3.1.5-2
-  gettext-devel-0.14.5-1
-  intltool-0.35.0-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gettext-devel-0.15-1
+  gnome-common-2.18.0-1
+  intltool-0.35.5-1
   make-3.81-1
-  pkg-config-0.20-1
+  pkg-config-0.21-1
   scrollkeeper-0.3.14-2
-  sed-4.1.5-1
+  sed-4.1.5-2
 
 Canonical homepage:
   http://gnochm.sourceforge.net/
@@ -45,15 +46,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnochm-0.9.9-1-src.tar.bz2
+  unpack gnochm-0.9.10-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnochm-0.9.9-1.cygport all
+  cygport ./gnochm-0.9.10-1.cygport all
 
 This will create:
-  /usr/src/gnochm-0.9.9-1-src.tar.bz2
-  /usr/src/gnochm-0.9.9-1.tar.bz2
+  /usr/src/gnochm-0.9.10-1-src.tar.bz2
+  /usr/src/gnochm-0.9.10-1.tar.bz2
 
 -------------------------------------------
 
@@ -65,29 +66,33 @@ Files included in the binary package:
   /usr/bin/gnochm
   /usr/share/application-registry/gnochm.applications
   /usr/share/applications/gnochm.desktop
-  /usr/share/doc/Cygwin/gnochm-0.9.9.README
-  /usr/share/doc/gnochm-0.9.9/ABOUT-NLS
-  /usr/share/doc/gnochm-0.9.9/AUTHORS
-  /usr/share/doc/gnochm-0.9.9/COPYING
-  /usr/share/doc/gnochm-0.9.9/ChangeLog
-  /usr/share/doc/gnochm-0.9.9/INSTALL
-  /usr/share/doc/gnochm-0.9.9/NEWS
-  /usr/share/doc/gnochm-0.9.9/README
+  /usr/share/doc/Cygwin/gnochm-0.9.10.README
+  /usr/share/doc/gnochm-0.9.10/ABOUT-NLS
+  /usr/share/doc/gnochm-0.9.10/AUTHORS
+  /usr/share/doc/gnochm-0.9.10/COPYING
+  /usr/share/doc/gnochm-0.9.10/ChangeLog
+  /usr/share/doc/gnochm-0.9.10/INSTALL
+  /usr/share/doc/gnochm-0.9.10/NEWS
+  /usr/share/doc/gnochm-0.9.10/README
   /usr/share/gnochm/glade/gnochm.glade
   /usr/share/gnochm/glade/prefdialog.glade
   /usr/share/gnome/help/gnochm/C/gnochm.xml
   /usr/share/gnome/help/gnochm/C/legal.xml
+  /usr/share/locale/be/LC_MESSAGES/gnochm.mo
   /usr/share/locale/cs/LC_MESSAGES/gnochm.mo
   /usr/share/locale/de/LC_MESSAGES/gnochm.mo
   /usr/share/locale/el/LC_MESSAGES/gnochm.mo
   /usr/share/locale/es/LC_MESSAGES/gnochm.mo
   /usr/share/locale/fr/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/hu/LC_MESSAGES/gnochm.mo
   /usr/share/locale/it/LC_MESSAGES/gnochm.mo
   /usr/share/locale/ja/LC_MESSAGES/gnochm.mo
   /usr/share/locale/pl/LC_MESSAGES/gnochm.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/gnochm.mo
   /usr/share/locale/ru/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/sv/LC_MESSAGES/gnochm.mo
   /usr/share/locale/tr/LC_MESSAGES/gnochm.mo
+  /usr/share/locale/vi/LC_MESSAGES/gnochm.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/gnochm.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/gnochm.mo
   /usr/share/mime-info/gnochm.keys
@@ -101,6 +106,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.9.10-1 -----
+Version bump, built for python-2.5.
 
 ----- version 0.9.9-1 -----
 Version bump.
