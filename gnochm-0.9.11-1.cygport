@@ -1,0 +1,7 @@
+inherit gnome2
+
+DESCRIPTION="GNOME CHM viewer"
+HOMEPAGE="http://gnochm.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+
+CYGCONF_ARGS='--disable-mime-update --enable-desktop-update'
