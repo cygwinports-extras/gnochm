@@ -15,26 +15,25 @@ Gnochm is a CHM file viewer for Gnome systems. Features are:
 * Displays HTML page source
 
 Runtime requirements:
-  python-2.5.1-3
-  python-chm-0.8.4-2
-  python-gconf2-2.18.2-1
-  python-gnome2-2.18.2-1
-  python-gobject2-2.12.3-2
-  python-gtk2-2.10.6-1
-  python-gtkhtml2-2.14.3-1
+  python-2.5.4-10
+  python-chm-0.8.4-10
+  python-gconf2-2.26.1-1
+  python-gnome2-2.26.1-1
+  python-gobject2-2.16.1-10
+  python-gtk2-2.14.1-1
+  python-gtkhtml2-2.25.3-1
 
 Build requirements:
-  cygwin-1.5.24-2
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  cygport-0.2.11-1
-  gawk-3.1.5-4
-  gettext-devel-0.15-1
-  gnome-common-2.18.0-1
-  intltool-0.35.5-1
-  make-3.81-1
-  pkg-config-0.21-1
-  scrollkeeper-0.3.14-2
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
+  cygport-0.9.8-1
+  gawk-3.1.6-2
+  gettext-devel-0.17-11
+  gnome-common-2.26.0-2
+  intltool-0.40.6-1
+  make-3.81-2
+  pkg-config-0.23b-10
+  rarian-0.8.1-11
   sed-4.1.5-2
 
 Canonical homepage:
@@ -66,14 +65,11 @@ Files included in the binary package:
   /usr/bin/gnochm
   /usr/share/application-registry/gnochm.applications
   /usr/share/applications/gnochm.desktop
-  /usr/share/doc/Cygwin/gnochm-0.9.11.README
-  /usr/share/doc/gnochm-0.9.11/ABOUT-NLS
-  /usr/share/doc/gnochm-0.9.11/AUTHORS
-  /usr/share/doc/gnochm-0.9.11/COPYING
-  /usr/share/doc/gnochm-0.9.11/ChangeLog
-  /usr/share/doc/gnochm-0.9.11/INSTALL
-  /usr/share/doc/gnochm-0.9.11/NEWS
-  /usr/share/doc/gnochm-0.9.11/README
+  /usr/share/doc/gnochm/AUTHORS
+  /usr/share/doc/gnochm/COPYING
+  /usr/share/doc/gnochm/ChangeLog
+  /usr/share/doc/gnochm/NEWS
+  /usr/share/doc/gnochm/README
   /usr/share/gnochm/glade/gnochm.glade
   /usr/share/gnochm/glade/prefdialog.glade
   /usr/share/gnome/help/gnochm/C/gnochm.xml
@@ -107,26 +103,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.9.11-1 -----
-Version bump.
-
------ version 0.9.10-1 -----
-Version bump, built for python-2.5.
-
------ version 0.9.9-1 -----
-Version bump.
-
------ version 0.9.8-1 -----
-Version bump.
-
------ version 0.9.7-1 -----
-Version bump.
-
------ version 0.9.6-1 -----
-Version bump.
-
------ version 0.9.4-1 -----
-Initial release for Cygwin.
+----- version 0.9.11-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
